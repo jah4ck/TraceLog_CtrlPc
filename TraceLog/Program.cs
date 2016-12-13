@@ -26,6 +26,7 @@ namespace TraceLog
                 {
                     writer.WriteLine(Date + "     " + "TraceLog.exe" + "     " + "ERREUR : " + args[0]);
                     writer.WriteLine(Date + "     " + "TraceLog.exe" + "     " + "ERREUR : " + err.Message);
+                    writer.WriteLine(Date + "     " + "TraceLog.exe" + "     " + "ERREUR : " + err.StackTrace);
 
                 }
             }
